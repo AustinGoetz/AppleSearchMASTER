@@ -77,16 +77,19 @@ class ItemSearchTableViewController: UITableViewController {
         switch entitySegmentedControl.selectedSegmentIndex {
         case 0:
             let track = musicItems[indexPath.row]
+            // Below comes after setting up cell
             cell.musicTrack = track
             cell.appItem = nil
         case 1:
             let app = appItems[indexPath.row]
+            // Below comes after setting up cell
             cell.appItem = app
             cell.musicTrack = nil
         default:
+            // Research break vs. return
             break
         }
-        
+        // After setting up the cell
         cell.updateViews()
         
         return cell

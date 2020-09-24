@@ -16,7 +16,6 @@ class EntityTableViewCell: UITableViewCell {
     
     // MARK: - Properties
     var musicTrack: MusicTrack?
-    
     var appItem: AppItem?
     
     // MARK: - Helper Functions/Methods
