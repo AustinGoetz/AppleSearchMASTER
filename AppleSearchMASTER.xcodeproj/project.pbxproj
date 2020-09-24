@@ -16,6 +16,8 @@
 		2A68DB87251C38CF0088F53F /* MusicItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A68DB86251C38CF0088F53F /* MusicItem.swift */; };
 		2A68DB93251C3B810088F53F /* AppleStoreItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A68DB92251C3B810088F53F /* AppleStoreItemController.swift */; };
 		2A68DB96251C3BD80088F53F /* AppleStoreError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A68DB95251C3BD80088F53F /* AppleStoreError.swift */; };
+		2A68DBA1251C4C080088F53F /* ItemSearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A68DBA0251C4C080088F53F /* ItemSearchTableViewController.swift */; };
+		2A68DBA4251C4CB80088F53F /* EntityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A68DBA3251C4CB80088F53F /* EntityTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		2A68DB86251C38CF0088F53F /* MusicItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicItem.swift; sourceTree = "<group>"; };
 		2A68DB92251C3B810088F53F /* AppleStoreItemController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleStoreItemController.swift; sourceTree = "<group>"; };
 		2A68DB95251C3BD80088F53F /* AppleStoreError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleStoreError.swift; sourceTree = "<group>"; };
+		2A68DBA0251C4C080088F53F /* ItemSearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemSearchTableViewController.swift; sourceTree = "<group>"; };
+		2A68DBA3251C4CB80088F53F /* EntityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +125,7 @@
 		2A68DB7B251C35510088F53F /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
+				2A68DBA3251C4CB80088F53F /* EntityTableViewCell.swift */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -128,6 +133,7 @@
 		2A68DB7C251C355C0088F53F /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				2A68DBA0251C4C080088F53F /* ItemSearchTableViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -222,8 +228,10 @@
 				2A68DB93251C3B810088F53F /* AppleStoreItemController.swift in Sources */,
 				2A68DB60251C35130088F53F /* AppDelegate.swift in Sources */,
 				2A68DB87251C38CF0088F53F /* MusicItem.swift in Sources */,
+				2A68DBA4251C4CB80088F53F /* EntityTableViewCell.swift in Sources */,
 				2A68DB62251C35130088F53F /* SceneDelegate.swift in Sources */,
 				2A68DB96251C3BD80088F53F /* AppleStoreError.swift in Sources */,
+				2A68DBA1251C4C080088F53F /* ItemSearchTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

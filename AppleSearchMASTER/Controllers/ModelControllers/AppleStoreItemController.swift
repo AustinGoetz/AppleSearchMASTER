@@ -25,8 +25,8 @@ class AppleStoreItemController {
         let searchURL = baseURL.appendingPathComponent(StringConstants.searchComponent)
         
         var components = URLComponents(url: searchURL, resolvingAgainstBaseURL: true)
-        let searchQuery = URLQueryItem(name: StringConstants.searchComponent, value: searchTerm)
-        let entityQuery = URLQueryItem(name: StringConstants.entityQueryName, value: StringConstants.appEntityQueryValue)
+        let searchQuery = URLQueryItem(name: StringConstants.searchQueryName, value: searchTerm)
+        let entityQuery = URLQueryItem(name: StringConstants.entityQueryName, value: StringConstants.musicEntityQueryValue)
         
         components?.queryItems = [searchQuery, entityQuery]
         
@@ -55,8 +55,8 @@ class AppleStoreItemController {
         let searchURL = baseURL.appendingPathComponent(StringConstants.searchComponent)
         
         var components = URLComponents(url: searchURL, resolvingAgainstBaseURL: true)
-        let searchQuery = URLQueryItem(name: StringConstants.searchComponent, value: searchTerm)
-        let entityQuery = URLQueryItem(name: StringConstants.entityQueryName, value: StringConstants.musicEntityQueryValue)
+        let searchQuery = URLQueryItem(name: StringConstants.searchQueryName, value: searchTerm)
+        let entityQuery = URLQueryItem(name: StringConstants.entityQueryName, value: StringConstants.appEntityQueryValue)
         
         components?.queryItems = [searchQuery, entityQuery]
         
