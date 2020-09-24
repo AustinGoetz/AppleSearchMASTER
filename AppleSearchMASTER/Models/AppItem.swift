@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct AppTopLevelDictionary: Codable {
+struct AppItemTopLevelDictionary: Codable {
     let results: [AppItem]
 }
 
