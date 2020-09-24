@@ -12,6 +12,8 @@
 		2A68DB67251C35130088F53F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A68DB65251C35130088F53F /* Main.storyboard */; };
 		2A68DB69251C35150088F53F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A68DB68251C35150088F53F /* Assets.xcassets */; };
 		2A68DB6C251C35150088F53F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A68DB6A251C35150088F53F /* LaunchScreen.storyboard */; };
+		2A68DB83251C38710088F53F /* AppItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A68DB82251C38710088F53F /* AppItem.swift */; };
+		2A68DB87251C38CF0088F53F /* MusicItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A68DB86251C38CF0088F53F /* MusicItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		2A68DB68251C35150088F53F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A68DB6B251C35150088F53F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A68DB6D251C35150088F53F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A68DB82251C38710088F53F /* AppItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppItem.swift; sourceTree = "<group>"; };
+		2A68DB86251C38CF0088F53F /* MusicItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,7 @@
 				2A68DB79251C35470088F53F /* Models */,
 				2A68DB78251C35440088F53F /* Views */,
 				2A68DB77251C35400088F53F /* Controllers */,
+				2A68DB8C251C3A930088F53F /* Helpers */,
 				2A68DB74251C35230088F53F /* Resources */,
 			);
 			path = AppleSearchMASTER;
@@ -95,6 +100,8 @@
 		2A68DB79251C35470088F53F /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				2A68DB82251C38710088F53F /* AppItem.swift */,
+				2A68DB86251C38CF0088F53F /* MusicItem.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -126,6 +133,13 @@
 			children = (
 			);
 			path = ModelControllers;
+			sourceTree = "<group>";
+		};
+		2A68DB8C251C3A930088F53F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,7 +212,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A68DB83251C38710088F53F /* AppItem.swift in Sources */,
 				2A68DB60251C35130088F53F /* AppDelegate.swift in Sources */,
+				2A68DB87251C38CF0088F53F /* MusicItem.swift in Sources */,
 				2A68DB62251C35130088F53F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
